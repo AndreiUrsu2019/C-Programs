@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-	//added comment
+	//removed comment
     struct nod{
     int info;
     nod*urm
