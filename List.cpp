@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+	//fsdfsdfs
 	//this is a struct
     struct nod{
     int info;
