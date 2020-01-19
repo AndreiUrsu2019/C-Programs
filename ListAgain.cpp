@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
 	//removed comment
+	//c
     struct nod{
     int info;
     nod*urm
