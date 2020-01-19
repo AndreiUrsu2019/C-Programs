@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
 	//this is a struct
+	//removed struct
     struct nod{
     int info;
     nod*urm
