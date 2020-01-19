@@ -5,6 +5,7 @@ int main()
 {
 	//fsdfsdfs
 	//this is a struct
+	//removed struct
     struct nod{
     int info;
     nod*urm
