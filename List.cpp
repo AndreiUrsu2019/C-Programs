@@ -2,8 +2,7 @@
 #include<cmath>
 using namespace std;
 int main()
-{
-	//fsdfsdfs
+{//first try
 	//this is a struct
 	//removed struct
     struct nod{
