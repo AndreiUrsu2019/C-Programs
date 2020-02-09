@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1581248384 source:d:\info liceu\projects\myfirstrepository\matrixproblemcb\matrixproblem\main.cpp
+	<iostream>
+	<fstream>
+
