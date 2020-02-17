@@ -14,12 +14,36 @@ int main() {
             t[i][j] = t[i][j] + max(t[i + 1][j], t[i + 1][j + 1]);
             if(i==n-1)
             rez[n]=max(t[i + 1][j], t[i + 1][j + 1]);
-            else if( )
+            //else if( )
         }
 
     for(i=1;i<=n;i++) {
         cout << endl;
         for (j = 1; j <= i; j++)
             cout<<t[i][j];
+    }
+    cout<<endl;
+
+    for(i=n;i>=1;i--)
+    {
+        maxim=0;
+        for(j=1;j<=i;j++)
+        {
+            if(s[i][j]+s[i-1][j]>s[i][j+1]+s[i-1][j]){
+                if(s[i][j]+s[i-1][j]>maxim)
+                maxim=s[i][j]+s[i-1][j];
+            }
+            else
+
+            if(s[i][j+1]+s[i-1][j]>maxim)
+                maxim=s[i][j+1]+s[i-1][j];
+
+
+
+        }
+        cout<<maxim<<" ";
+
+
+
     }
 }
