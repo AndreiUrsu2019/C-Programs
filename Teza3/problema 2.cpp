@@ -1,30 +1,37 @@
 #include<iostream>
 using namespace std;
-int numar(int n,int m){
+int numarare(int n,int m)
+{ m=0;
+    int maxim,k=0,c,d,i;
+    c=n;
+    while(n)
+    {if(n%2!=0)
+    { m=m*10;
+        k++;
+    m=m+n;
 
-int c,m,maxim=0;
 
-while(n)
-{
-    if(n%10/2!=0)
-        m=m+n;
-    m=m*10;
+    }
     n=n/10;
+    }
+    if(k==0)
+    {m=-1;
+    return m;
 
-
-}
-c=m;
-int v[100]=0;
-int i=1;
-int k=0;
-while(m)
-{ v[i]=m%10;
-i++;
-k++;
-m=m/10;
+    }
+return m;
 
 }
-for(i=1;i<=k;i++)
+int main()
+{
+    int n,m;
+    cin>>n;
+    numarare(n,m);
+cout<<m;
+
+
+
+
 
 
 }
